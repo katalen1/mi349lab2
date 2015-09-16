@@ -1,0 +1,55 @@
+body{
+	font-family: "Helvetica";
+	margin: 0 auto;
+	width: 1200px;
+	height: 2500px;
+	background: #006B24;
+}
+
+article{
+	background: #fff;
+	border-top: 5px solid #424242;
+	padding: 2px;
+}
+
+h1{
+	width: 375px;
+	margin: 0 0 1px 0;
+	font-size: 2em;
+	background: #ccc;
+	color: #00ff00;
+}
+
+h2{
+	color: #929292;
+	font-weight: normal;
+}
+
+li{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+p{
+	text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: #DF0020;
+}
+
+/* visited link */
+a:visited {
+    color: #10FE02;
+}
+
+/* mouse over link */
+a:hover {
+    color: #EE00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000EE;
+}
